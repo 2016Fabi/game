@@ -1,0 +1,77 @@
+<div class="fundo">
+    <div class="cabecalho">
+      <div class="flex-container">
+        <div class="logomarca d-flex justify-content-start ">
+          <img src="https://colegiopassoapassobauru.com.br/assets/img/tecnologia/59c3b61707299d451bf3594f17a26c40.png" 
+          class="img-thumbnail" alt="">       
+        </div> 
+        <div class="pesquisar d-flex justify-content-center">
+          <form [formGroup]="form" (ngSubmit)="pesquisaForm()">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                  <div class="form-group" >
+                      <input  type="text" class="form-control"  placeholder="Title" formControlName="title">
+                  </div>
+              </div>
+              <div class="col-12 col-md-6" >
+                  <button type="submit" class="btn btn-success">Pesquisar</button> 
+              </div>
+            </div>               
+          </form>                  
+        </div>
+        <div class="botao-login d-flex justify-content-end">
+          <img (click)="clicanobotao()" src="https://st.depositphotos.com/1005920/1294/i/600/depositphotos_12946417-stock-photo-login-icon.jpg">
+        </div>
+      </div>      
+    </div> 
+    <div class="conteudo-api">
+
+      <div class="games">         
+        <div class="photos-game">
+         <div class="photos-iniciar" *ngIf="game">
+            <img [src]="photoprincipal">
+         </div>
+         <div class="photo-g1">
+          <button>←</button>
+          <div *ngFor="let photo of game.photos">
+            <img class="photo-g2" (click)="mudarFoto(photo.url)" [src]="photo.url">
+          </div>
+          <button>→</button>
+        </div>
+        </div>
+     </div>         
+            
+    
+      <div class="games1"> 
+        <div class="inf-game1">
+          <h1>{{game?.title}}</h1>
+          <h4>{{game?.rating}}</h4>
+        </div>
+        <hr>
+            <div class="inf-game1" *ngIf="game">
+              <h3>Genres: <i>{{game.genres}}</i></h3>
+              <h3>TotalVotes: <i>{{game.totalVotes}}</i></h3>
+              <h3>Platforms: <i>{{game.platforms}}</i></h3>
+              <h3>Tags: <i>{{game.tags}}</i></h3>
+            </div>            
+        <hr>
+           <div class="inf-game1" *ngIf="game">
+              <h2>Medium Price: ${{game.mediumPrice}}</h2>
+              <p>Release Date:  {{game.createdAt | date}}</p>
+              <button (click)="votarGame()">VOTE NOW</button>
+            </div>
+        <hr>
+      </div>     
+    </div> 
+    <div class="descricao">
+      <h3>Description</h3>
+    </div>
+    <div class="descri-game-1" *ngIf="game">
+      <h2>{{game.description}}</h2>
+    </div>     
+    <div class="rodape">
+      <div class="row">
+       
+      </div>
+    </div>
+</div>      

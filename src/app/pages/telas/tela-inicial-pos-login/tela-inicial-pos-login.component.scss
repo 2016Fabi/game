@@ -1,0 +1,130 @@
+.fundo{
+    background-color: black;
+    min-height: 1000px;
+}
+
+.cabecalho{
+    background-color: red;
+    height: 60px;
+}
+
+.img-thumbnail{
+    height: 60px;
+}
+
+.botao-login{
+   height: 60px;
+   margin-left: 12px;   
+}
+
+
+.game1{
+    width:50%;
+    height:auto;
+    overflow:hidden;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding:10px;
+}
+
+.photos{
+    margin:0 auto;
+    width:80%;
+    height:400px;
+    overflow: hidden;
+}
+
+.game2 img{
+    width: 100%;
+    height: 300px;
+}
+
+.game2{
+    width: 300px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.game2 h4{
+    width:50%;
+    border:2px solid crimson;
+    border-radius:50%;
+    background-color:crimson;
+    padding:5px;
+    text-align:center;
+}
+
+.game2 h3{
+    color: white;
+    font-size:30px;
+}
+
+.game2 h2{
+    color: white;
+    font-size:30px;
+}
+
+button{
+    background-color:crimson;
+    padding:10px;
+    color:white;
+    margin:0 auto;
+    cursor:pointer;
+}
+
+.game{
+    margin: 10px;
+    color: white;
+    justify-content: space-between;
+}
+
+.game h1{
+    margin: 5px;
+    color: white;
+    font: small;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.game3{
+    width: 40%;
+}
+
+.game4{
+    margin:10px auto;
+    width:70%;
+    height:850px;
+    overflow:hidden;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+.rodape{
+    background-color: dimgray;
+    height: 60px;
+}
+
+.conteudo-api{
+    min-height: 900px;
+}
+
+.mostrar-jogos{
+    height:auto;
+}
+
+

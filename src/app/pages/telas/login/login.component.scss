@@ -1,0 +1,72 @@
+.fundo{
+    background-color: black;
+    min-height: 1000px;
+}
+
+.cabecalho{
+    background-color: red;
+    height: 60px;
+}
+
+.rodape{
+    background-color: dimgray;
+    height: 60px;
+}
+
+.img-thumbnail{
+    height: 60px;
+}
+
+.pesquisar{
+    height: 60px;
+    margin: 10px;  
+}
+
+.botao-login{
+   height: 60px;
+   margin-left: 12px;   
+}
+
+.painel-login{
+    width:30%;
+    min-height:400px;
+    margin:210px auto;
+    background-color:whitesmoke;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+    padding:30px;
+    border-radius:10%;
+    
+}
+
+.form{
+    width:100%;
+    min-height:200px;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+}
+.form input{
+    min-height:30px;
+    padding:5px;
+}
+
+.conteudo-api{
+    min-height: 900px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+button{
+    background-color:crimson;
+    padding:10px;
+    color:white;
+    margin:0 auto;
+    cursor:pointer;
+}

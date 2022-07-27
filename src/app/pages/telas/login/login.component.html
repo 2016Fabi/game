@@ -1,0 +1,46 @@
+<div class="fundo">
+    <div class="cabecalho">
+      <div  class="flex-container">
+        <div class="logomarca d-flex justify-content-start ">
+          <img src="https://colegiopassoapassobauru.com.br/assets/img/tecnologia/59c3b61707299d451bf3594f17a26c40.png" 
+          class="img-thumbnail" alt="">       
+        </div> 
+        <div class="pesquisar d-flex justify-content-center ">
+          <form [formGroup]="form" (ngSubmit)="pesquisaForm()">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="form-group" >
+                        <input type="text" class="form-control"  placeholder="Title" formControlName="title">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6" >
+                    <button type="submit" class="btn btn-success">Pesquisar</button> 
+                </div>
+              </div>               
+        </form>                
+        </div>
+        <div class="botao-login d-flex justify-content-end ">
+          <img src="https://st.depositphotos.com/1005920/1294/i/600/depositphotos_12946417-stock-photo-login-icon.jpg">
+        </div>
+      </div>      
+    </div> 
+
+    <div class="conteudo-api">
+      <div class="painel-login">
+        <h1>ENTRAR</h1>
+        <p>Inserir as informações da sua conta </p>
+        <div class="form">
+          <input type="text" placeholder="Nome do usuário de e-amil">
+          <input type="password" placeholder="Senha">
+          <input (click)="clicanobotao()" class="btn btn-dark" type="submit" value="Acessar sua conta">
+        </div>
+      <p>Sem conta ? <b>Send email para fmarquespenteado@gmail.com</b></p>
+      </div>
+    </div>    
+    <div class="rodape">
+      <div class="row">
+        
+      </div>
+    </div>
+</div>
+

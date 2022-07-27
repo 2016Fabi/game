@@ -1,0 +1,134 @@
+.fundo{
+    background-color: black;
+    min-height: 1000px;
+}
+
+.cabecalho{
+    background-color: red;
+    height: 60px;
+}
+
+.rodape{
+    background-color: dimgray;
+    height: 60px;
+}
+
+.img-thumbnail{
+    height: 60px;
+}
+
+.pesquisar{
+    height: 60px;
+    margin: 10px;  
+}
+
+.botao-iniciar{
+   height: 60px;
+   margin-left: 12px;   
+}
+
+
+.conteudo-api{
+    min-height: 900px;
+}
+
+.seta{
+    width:auto;
+    border:2px solid crimson;
+    color:crimson;
+    background-color:#111111;
+    padding:10px;
+    font-size:20px;
+    text-align:center;
+}
+
+.game{
+    width: 80%;
+}
+
+.game1{
+    margin:10px auto;
+    width:70%;
+    height:850px;
+    overflow:hidden;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+.games{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.photos{
+    margin:0 auto;
+    width:80%;
+    height:400px;
+    overflow: hidden;
+}
+
+.photos img{
+    width:100%;
+    height:inherit;
+    border-radius:10px;
+}
+.game2 img{
+    width: 100%;
+    height: 100px;
+}
+
+.game2{
+    width: auto;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+    cursor: pointer;
+}
+
+.game2 h4{
+    width:60%;
+    border:2px solid crimson;
+    border-radius:50%;
+    background-color:crimson;
+    padding:5px;
+    text-align:center;
+}
+
+.game2 h3{
+    color: white;
+    font-size:10px;
+}
+
+.game2 h2{
+    color: white; 
+    font-size:10px;
+}
+
+button{
+    background-color:crimson;
+    padding:10px;
+    color:white;
+    margin:0 auto;
+    cursor:pointer;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.mostrar-jogos{
+    height:auto;
+}
+

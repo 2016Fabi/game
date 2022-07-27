@@ -1,0 +1,44 @@
+<div class="fundo">
+    <div class="cabecalho">
+      <div  class="flex-container">
+        <div class="logomarca d-flex justify-content-start ">
+          <img src="https://colegiopassoapassobauru.com.br/assets/img/tecnologia/59c3b61707299d451bf3594f17a26c40.png" 
+          class="img-thumbnail" alt="">       
+        </div>
+        <div class="botao-login d-flex justify-content-end ">
+          <img src="https://st.depositphotos.com/1005920/1294/i/600/depositphotos_12946417-stock-photo-login-icon.jpg">
+        </div>
+      </div>      
+    </div>
+
+    <div class="conteudo-api">
+      <div class="games" *ngIf="game">         
+        <div class="photos-game" >
+         <div class="photos-iniciar" >
+           <img [src]="game.photos[0]?.url">
+         </div>
+         <div class="photo-g1 " >
+          <button>←</button>
+          <div class="photo-g2" *ngIf="game">
+            <img [src]="game.photos[0]?.url">
+          </div>
+          <button>→</button>
+        </div>
+        </div>
+     </div> 
+     
+      <div class="games1">
+         <hr>
+            <div class="inf-game1" *ngIf="game">
+              <h3>Genres: <i>{{game.genres}}</i></h3>
+              <h3>TotalVotes: <i>{{game.totalVotes}}</i></h3>
+              <h3>Platforms: <i>{{game.platforms}}</i></h3>
+              <h3>Tags: <i>{{game.tags}}</i></h3>
+            </div>            
+         <hr>
+       
+      </div>
+
+    </div>
+
+</div>

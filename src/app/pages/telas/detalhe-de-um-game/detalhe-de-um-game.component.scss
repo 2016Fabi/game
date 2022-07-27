@@ -1,0 +1,179 @@
+.fundo{
+    background-color: black;
+    min-height: 1000px;
+}
+
+.cabecalho{
+    background-color: red;
+    height: 60px;
+}
+
+.rodape{
+    background-color: dimgray;
+    height: 60px;   
+}
+
+.img-thumbnail{
+    height: 60px;
+}
+
+.pesquisar{
+    height: 60px;
+    margin: 10px;  
+}
+
+.botao-login{
+   height: 60px;
+   margin-left: 12px;   
+}
+
+.conteudo-api{
+    min-height: 900px;
+    display: flex;
+}
+
+.games{
+    width:90%;
+    margin:0 auto;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    //justify-content:space-between;
+    align-items: center;
+    color:white;    
+}
+
+.photos{
+    margin:0 auto;
+    width:100%;
+    height:400px;
+    overflow: hidden;
+}
+
+.photos-game{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:10px;
+}
+
+.photos-iniciar{
+    width:300px;
+    height:450px;
+    margin:0 auto;
+}
+.photos-iniciar img{
+    margin:0 auto;
+    width:100%;
+    height:100%;
+}
+
+.photo-g1{
+    width:auto;
+    height:auto;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.photo-g2{
+    width:80%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    overflow:hidden;
+}
+
+.photo-g2 img{
+    width:60%;
+    height:60%;
+    cursor:pointer;
+}
+
+.photo-g1 button{
+    background-color:#111111;
+    border:2px solid crimson;
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-size:35px;
+    cursor:pointer;
+}
+
+button{
+    background-color:crimson;
+    padding:10px;
+    color:white;
+    margin:0 auto;
+    cursor:pointer;
+}
+
+.games1{
+    width:70%;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around; 
+}
+
+.inf-game1{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:left;
+    padding:20px;
+    min-height:200px;
+    color: white;
+}
+
+.inf-game1 h4{
+    width:30%;
+    border:2px solid crimson;
+    border-radius:50%;
+    background-color:crimson;
+    padding:5px;
+    text-align:center;
+}
+
+.info-game-1 button{
+    width:30%;
+    height:30%;
+    background-color:crimson;
+    padding:7px;
+    text-align:center;
+    color:white;
+}
+
+.inf-game1 i{
+    color:gray;
+}
+
+.descri-game-1{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color: gray;
+}
+
+.descri-game-1 h2{
+    color:#111111;
+    letter-spacing:3px;
+    font-size:40px;
+}
+
+.descricao h3{
+    color: crimson;
+    text-align: center;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
